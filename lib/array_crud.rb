@@ -11,25 +11,29 @@ my_array << "vegetable"
 end
 
 def add_element_to_start_of_array(array, element)
-array.unshift(vegetable)
+my_array.unshift("vegetable")
 end
 
 def remove_element_from_end_of_array(array)
-array.pop(grain)
+grain = my_array.pop 
 end
 
 def remove_element_from_start_of_array(array)
-array.shift(vegetable)
+cheese = my_array.shift
 end
 
 def retrieve_element_from_index(array, index_number)
-array[1]
+my_array[1
+
+my_array[2]
+
+my_array[3]  
 end
 
 def retrieve_first_element_from_array(array)
-array[0]
+my_array[0
 end
 
 def retrieve_last_element_from_array(array)
-array[-1]
+my_array[-1]
 end
